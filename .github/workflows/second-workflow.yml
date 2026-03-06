@@ -1,0 +1,10 @@
+name: second workfloww babyy
+on: workflow_dispatch
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print smth
+        run: echo "This is second workflow"
+      - name: print arithmetic
+        run: echo "1 + 2"
